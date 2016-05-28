@@ -40,3 +40,8 @@
 	position: absolute;
 	top: -999999px;
 }
+
+
+#ftCon , #bottom_container{
+	display: none;
+}
