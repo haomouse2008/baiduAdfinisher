@@ -41,7 +41,96 @@
 	top: -999999px;
 }
 
+/*theme*/
+#ftCon , #bottom_container,#lg,
+#s_top_wrap,
+#s_upfunc_menus,
+#u_sp,
+#result_logo,
+#foot,.s-skin-container,
+#rs , #content_right, .after-content,.wgt-footer-main,
+.newsearch .aside ,.newsearch #footer,
+.newsearch a.logo, .music-foot,.headBlock,
+.leftBlock,.to_tieba,.music-head .lg,
+.new-bdsharebuttonbox.new-side-share,#doc #ft,
+#doc .mt10, #doc .relate_search,
+.mod.lastcell-dialog,#doc .relate_search+div,
+.result-op.xpath-log , .rrecom-btn-parent,#side_box_unionAd,
+#unionAd_fromPs, #head #u > *:not(:first-child),
+#header_top_bar,.jump-task-list,.gb-pr-lk,
+#page-main .list-header,.wgt-relate-search,#lead-ps{
+	display: none !important;
+}
+html{
+	overflow-y: auto !important;
+}
+body{
+	background-size: cover !important;
+	background-image: url("chrome-extension://__MSG_@@extension_id__/images/e.jpg") !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+}
+#content_left .c-container,
+#content_left .result,
+#wgt-list > .dl{
+	position: relative;
+	padding: 16px;
+	cursor: default;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 8px !important;
+	width: 720px !important;
+	font-size: 14px !important;
+}
+#content_left .c-container:after{
+	position: absolute;
+	-webkit-transition: all 0.6s ease-in-out;
+	width:0;
+	content: " ";
+	height: 4px;
+	background-color: #ff0000;
+	top: 0px;
+	left: 0px;
+}
+#content_left .c-container:hover:after{
+	width:100%;
+}
+#page a{
+	background-color: transparent !important;
+}
+#wrapper{
 
-#ftCon , #bottom_container{
-	display: none;
+}
+.s-skin-hasbg .btn{
+	opacity: 0;
+	position: relative;
+	z-index: 9;
+}
+#s_btn_wr{
+	background:#38f !important;
+	position: relative;
+}
+#s_btn_wr::after{
+	width:100%;
+	height: 100%;
+	display: block;
+	content: "biu一下";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+	z-index: 8;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#page .fk{opacity: 0;}
+#page strong{background: transparent !important;}
+.music-body{
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.jump-top-box{
+	top:auto !important;
+	bottom: 5px;
 }

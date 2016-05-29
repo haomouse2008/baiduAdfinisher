@@ -9,7 +9,8 @@
 		{
 			"matches": ["https://www.baidu.com/*","http://*.baidu.com/*"],
 			"css":["style.css"],
-			"run_at":"document_start"
+			"js":["jquery-1.7.2.min.js","main.js"],
+			"run_at":"document_end"
 		}
 	],
 	"permissions": [
@@ -24,5 +25,12 @@
 		"name": "百度广告屏蔽插件--by HKing",
 		"default_icon": "icon_128.png"
 	},
+	"web_accessible_resources": [
+       "images/a.jpg",
+	   "images/b.jpg",
+	   "images/c.jpg",
+	   "images/d.jpg",
+	   "images/e.jpg"
+    ],
 	"manifest_version": 2
 }
