@@ -58,7 +58,10 @@
 .result-op.xpath-log , .rrecom-btn-parent,#side_box_unionAd,
 #unionAd_fromPs, #head #u > *:not(:first-child),
 #header_top_bar,.jump-task-list,.gb-pr-lk,
-#page-main .list-header,.wgt-relate-search,#lead-ps{
+#page-main .list-header,.wgt-relate-search,#lead-ps,
+#rs_top_new,#gotoPage,
+#doc .bd-wrap .aside,
+#doc #xs-task, #doc .user-bar ,#doc a.logo{
 	display: none !important;
 }
 html{
@@ -72,14 +75,15 @@ body{
 }
 #content_left .c-container,
 #content_left .result,
-#wgt-list > .dl{
+#wgt-list > .dl,
+#doc .search-result > dl{
 	position: relative;
 	padding: 16px;
 	cursor: default;
 	background-color: rgba(255, 255, 255, 0.9);
 	margin-bottom: 8px !important;
 	width: 720px !important;
-	font-size: 14px !important;
+	font-size: 12px !important;
 }
 #content_left .c-container:after{
 	position: absolute;
@@ -134,3 +138,6 @@ body{
 	top:auto !important;
 	bottom: 5px;
 }
+#s_tab{background: rgba(284, 284, 284, 0.6) !important;}
+#page .pc{background-color: #ffffff;width: 46px !important;}
+#page .n{background-color: #ffffff !important;}
