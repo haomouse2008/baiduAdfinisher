@@ -9,7 +9,7 @@
 
 <font color="#ff0000">
 ### 离线safari扩展程序（.safariextz文件）安装方式：<br />
-1、[Safari](https://github.com/masterhou/baiduAdfinisher/blob/master/safari/baiduABP.safariextz)：下载后双击安装即可<br />
+1、[Safari](https://raw.githubusercontent.com/masterhou/baiduAdfinisher/master/safari/baiduABP.safariextz)：下载后双击安装即可<br />
 </font>
 
 效果截图： <br />
