@@ -7,6 +7,11 @@
 2、把.crx文件拖进该页面（国产浏览器直接拖入任意页面）。<br />
 </font>
 
+<font color="#ff0000">
+### 离线safari扩展程序（.safariextz文件）安装方式：<br />
+1、[Safari](https://github.com/masterhou/baiduAdfinisher/blob/master/safari/baiduABP.safariextz)：下载后双击安装即可<br />
+</font>
+
 效果截图： <br />
 ![github](https://raw.githubusercontent.com/unclehking/baiduAdfinisher/master/screenshot/sp01.png "github")  <br />
 
